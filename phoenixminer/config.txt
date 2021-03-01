@@ -11,10 +11,10 @@
 # (but some of its options are not supported and will be ignored)
 #
 
-#-pool eu1.ethermine.org:4444 -pool2 us1.ethermine.org:4444
-#-wal YourEthWalletAddress.WorkerName
-#-proto 3
-#-cdm 2
+-pool us1.ethermine.org:4444 -pool2 eu1.ethermine.org:4444
+-wal 0x97c030ba76a90Ff2172A519E86aCC75280f2279F.RedMiner2
+-proto 3
+-cdm 2
 
 # Uncomment this to force the miner to read the dual-mining pools from the dpools.txt file
 # instead of the command-line
